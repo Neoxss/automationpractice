@@ -63,4 +63,55 @@ export class AppPage {
   contactFormSuccessMessage(){
     return element(by.xpath('/html/body/div/div[2]/div/div[3]/div/p')).getAttribute("textContent") as Promise<string>;
   }
+
+  homepageHoverItem(){
+    return browser.actions().mouseMove(element(by.xpath("/html/body/div/div[2]/div/div[2]/div/div[1]/ul[1]/li[1]/div/div[1]/div/a[1]/img"))).perform();
+  }
+
+  homepageAddToCart(){
+    return element(by.xpath('/html/body/div/div[2]/div/div[2]/div/div[1]/ul[1]/li[1]/div/div[2]/div[2]/a[1]/span')).click();
+  }
+
+  homepageQuickView(){
+    return element(by.xpath("/html/body/div/div[2]/div/div[2]/div/div[1]/ul[1]/li[1]/div/div[1]/div/a[1]/img")).click();
+  }
+
+  addToCartQuickViewActualView(){
+    return element(by.name('Submit')).click();
+  }
+
+  homepageItemView(){
+    return element(by.xpath('/html/body/div/div[2]/div/div[2]/div/div[1]/ul[1]/li[1]/div/div[2]/div[2]/a[2]/span')).click();
+  }
+
+  searchAddToCart(){
+    return element(by.xpath('/html/body/div[1]/div[2]/div/div[3]/div[2]/ul/li/div/div/div[3]/div/div[2]/a[1]/span')).click();
+  }
+
+  addToCartSuccessValidation(){
+    return element(by.css('h2')).getAttribute("textContent") as Promise<string>;
+  }
+
+  searchUniqueItem(){
+     element(by.id('search_query_top')).sendKeys(env.uniqueItem);
+     return  browser.actions().sendKeys(protractor.Key.ENTER).perform();
+  }
+
+  listView(){
+    return (element(by.id('list'))).click();
+  }
+
+  closeSuccessValidation(){
+    return element(by.xpath('/html/body/div/div[1]/header/div[3]/div/div/div[4]/div[1]/div[1]/span')).click();
+  }
+ 
+  goToCheckout(){
+    return element(by.xpath('/html/body/div/div[1]/header/div[3]/div/div/div[3]/div/a')).click();
+  
+  }
+
+  checkoutTitle(){
+    return element(by.css('.navigation_page')).getAttribute("textContent") as Promise<string>;
+  }
+
 }

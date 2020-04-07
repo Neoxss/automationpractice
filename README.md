@@ -16,3 +16,5 @@ This is a mix of Protractor framework with the combination of Typescript and Cuc
 10. Save the dependencies for the reports `npm install multiple-cucumber-html-reporter --save`
 11. Run `ng e2e` and it will run all the test available on the framework.
 12. The reports will be available soon.
+
+All of the spleeps added are for the sake of checking the result by the one who's gonna check the code. They can be removed if needed.

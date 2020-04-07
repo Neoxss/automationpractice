@@ -7,6 +7,8 @@ module.exports  = {
     userInvalidEmail: 'notAnEmail',
     userContactMessage: 'This is a message',
     orderId: '123',
+    uniqueItem: 'blouse',
+    noUniqueItem: 'dress',
     setDefaultTimeout: (180 * 1000),
     seleniumAddress: 'http://localhost:4444/wd/hub',
     baseUrl: 'http://automationpractice.com/index.php'

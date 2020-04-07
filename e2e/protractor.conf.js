@@ -21,12 +21,12 @@ exports.config = {
     sequential: true
 
   },
-  {
-    browserName: 'firefox',
-    maxInstances: 2,
-    shardTestFiles: true,
-    sequential: true
-  }
+  // {
+  //   browserName: 'firefox',
+  //   maxInstances: 2,
+  //   shardTestFiles: true,
+  //   sequential: true
+  // }
 ],
   resultJsonOutputFile: 'report.json',
   directConnect: true,
