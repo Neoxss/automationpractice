@@ -19,7 +19,9 @@ This is a mix of Protractor framework with the combination of Typescript and Cuc
 13. The reports will be available at `*whereYouClonedTheProject*\jobsity-automationpractice\.tmp\report\index.html`
 If for some reason you get an error that a module was not found, please delete the `package-lock.json` file and rerun `npm install`
 
-Also there might be an issue if you have a a different chrome version that the current latest. For some reason Protractor only uses the latest and not the one that the user has avilable on their machines, therefore, please locate your driver in case is different at `dsk\Users\userName\AppData\Roaming\npm\node_modules\protractor\node_modules\webdriver-manager\selenium\yourChromeDriver` and change it on the `env.js` file
+Also there might be an issue if you have a a different chrome version that the current latest. For some reason Protractor only uses the latest and not the one that the user has avilable on their machines, therefore, please locate your driver in case is different at `dsk\Users\userName\AppData\Roaming\npm\node_modules\protractor\node_modules\webdriver-manager\selenium\yourChromeDriver` and change it on the `env.js` file.
+
+
 And also `C:\Users\Luis Delgado\AppData\Roaming\npm\node_modules\protractor\node_modules\webdriver-manager\selenium\update-config.json` needs to be updated with your driver. 
 
 All of the spleeps added are for the sake of checking the result by the one who's gonna check the code. They can be removed if needed.
