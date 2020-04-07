@@ -1,0 +1,1798 @@
+[
+  {
+    "description": "Verify if user is not able to send the form with all fields on blank",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I go to the Contact Form page",
+        "category": "Contact Form Functionality: Verify if user is not able to send the form with all fields on blank",
+        "durationMillis": 1000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 5,
+          "column": 7
+        },
+        "progress": {
+          "step": 1,
+          "steps": 3
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click on Send",
+        "category": "Contact Form Functionality: Verify if user is not able to send the form with all fields on blank",
+        "durationMillis": 9905000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 6,
+          "column": 7
+        },
+        "progress": {
+          "step": 2,
+          "steps": 3
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then It trigger an alert for the fields being blank",
+        "category": "Contact Form Functionality: Verify if user is not able to send the form with all fields on blank",
+        "durationMillis": 1963000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 7,
+          "column": 7
+        },
+        "progress": {
+          "step": 3,
+          "steps": 3
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given I go to the Contact Form page",
+          "category": "Contact Form Functionality: Verify if user is not able to send the form with all fields on blank",
+          "durationMillis": 1000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 5,
+            "column": 7
+          },
+          "progress": {
+            "step": 1,
+            "steps": 3
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When I click on Send",
+          "category": "Contact Form Functionality: Verify if user is not able to send the form with all fields on blank",
+          "durationMillis": 9905000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 6,
+            "column": 7
+          },
+          "progress": {
+            "step": 2,
+            "steps": 3
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then It trigger an alert for the fields being blank",
+          "category": "Contact Form Functionality: Verify if user is not able to send the form with all fields on blank",
+          "durationMillis": 1963000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 7,
+            "column": 7
+          },
+          "progress": {
+            "step": 3,
+            "steps": 3
+          }
+        }
+      ]
+    ],
+    "duration": 15292000000
+  },
+  {
+    "description": "Verify if user cannot send the form with an unvalid email",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I'm on the conctact Form page",
+        "category": "Contact Form Functionality: Verify if user cannot send the form with an unvalid email",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 10,
+          "column": 7
+        },
+        "progress": {
+          "step": 1,
+          "steps": 4
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I type an unvalid Email address",
+        "category": "Contact Form Functionality: Verify if user cannot send the form with an unvalid email",
+        "durationMillis": 11083000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 11,
+          "column": 7
+        },
+        "progress": {
+          "step": 2,
+          "steps": 4
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I send the contact form",
+        "category": "Contact Form Functionality: Verify if user cannot send the form with an unvalid email",
+        "durationMillis": 2020000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 12,
+          "column": 7
+        },
+        "progress": {
+          "step": 3,
+          "steps": 4
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then It should give me a validation for the invalid email",
+        "category": "Contact Form Functionality: Verify if user cannot send the form with an unvalid email",
+        "durationMillis": 2641000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 13,
+          "column": 7
+        },
+        "progress": {
+          "step": 4,
+          "steps": 4
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given I'm on the conctact Form page",
+          "category": "Contact Form Functionality: Verify if user cannot send the form with an unvalid email",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 10,
+            "column": 7
+          },
+          "progress": {
+            "step": 1,
+            "steps": 4
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When I type an unvalid Email address",
+          "category": "Contact Form Functionality: Verify if user cannot send the form with an unvalid email",
+          "durationMillis": 11083000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 11,
+            "column": 7
+          },
+          "progress": {
+            "step": 2,
+            "steps": 4
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "And I send the contact form",
+          "category": "Contact Form Functionality: Verify if user cannot send the form with an unvalid email",
+          "durationMillis": 2020000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 12,
+            "column": 7
+          },
+          "progress": {
+            "step": 3,
+            "steps": 4
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then It should give me a validation for the invalid email",
+          "category": "Contact Form Functionality: Verify if user cannot send the form with an unvalid email",
+          "durationMillis": 2641000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 13,
+            "column": 7
+          },
+          "progress": {
+            "step": 4,
+            "steps": 4
+          }
+        }
+      ]
+    ],
+    "duration": 19148000000
+  },
+  {
+    "description": "Verify if user cannot send the form w/o placing a message",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given From the conctact Form page",
+        "category": "Contact Form Functionality: Verify if user cannot send the form w/o placing a message",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 16,
+          "column": 7
+        },
+        "progress": {
+          "step": 1,
+          "steps": 4
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I type a valid Email address",
+        "category": "Contact Form Functionality: Verify if user cannot send the form w/o placing a message",
+        "durationMillis": 9745000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 17,
+          "column": 7
+        },
+        "progress": {
+          "step": 2,
+          "steps": 4
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I send the form again",
+        "category": "Contact Form Functionality: Verify if user cannot send the form w/o placing a message",
+        "durationMillis": 2039000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 18,
+          "column": 7
+        },
+        "progress": {
+          "step": 3,
+          "steps": 4
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then It should give me a validation for the Message being empty",
+        "category": "Contact Form Functionality: Verify if user cannot send the form w/o placing a message",
+        "durationMillis": 2604000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 19,
+          "column": 7
+        },
+        "progress": {
+          "step": 4,
+          "steps": 4
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given From the conctact Form page",
+          "category": "Contact Form Functionality: Verify if user cannot send the form w/o placing a message",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 16,
+            "column": 7
+          },
+          "progress": {
+            "step": 1,
+            "steps": 4
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When I type a valid Email address",
+          "category": "Contact Form Functionality: Verify if user cannot send the form w/o placing a message",
+          "durationMillis": 9745000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 17,
+            "column": 7
+          },
+          "progress": {
+            "step": 2,
+            "steps": 4
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "And I send the form again",
+          "category": "Contact Form Functionality: Verify if user cannot send the form w/o placing a message",
+          "durationMillis": 2039000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 18,
+            "column": 7
+          },
+          "progress": {
+            "step": 3,
+            "steps": 4
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then It should give me a validation for the Message being empty",
+          "category": "Contact Form Functionality: Verify if user cannot send the form w/o placing a message",
+          "durationMillis": 2604000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 19,
+            "column": 7
+          },
+          "progress": {
+            "step": 4,
+            "steps": 4
+          }
+        }
+      ]
+    ],
+    "duration": 18302000000
+  },
+  {
+    "description": "Verify if user cannot send the form w/o putting any subject",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given On the conctact Form page",
+        "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 22,
+          "column": 7
+        },
+        "progress": {
+          "step": 1,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I type a valid Email",
+        "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+        "durationMillis": 9755000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 23,
+          "column": 7
+        },
+        "progress": {
+          "step": 2,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I type a valid Message",
+        "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+        "durationMillis": 2020000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 24,
+          "column": 7
+        },
+        "progress": {
+          "step": 3,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I send the form",
+        "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+        "durationMillis": 2037000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 25,
+          "column": 7
+        },
+        "progress": {
+          "step": 4,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then It should give me a validation for the subject being empty",
+        "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+        "durationMillis": 2736000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 26,
+          "column": 7
+        },
+        "progress": {
+          "step": 5,
+          "steps": 5
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given On the conctact Form page",
+          "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 22,
+            "column": 7
+          },
+          "progress": {
+            "step": 1,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When I type a valid Email",
+          "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+          "durationMillis": 9755000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 23,
+            "column": 7
+          },
+          "progress": {
+            "step": 2,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "And I type a valid Message",
+          "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+          "durationMillis": 2020000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 24,
+            "column": 7
+          },
+          "progress": {
+            "step": 3,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "And I send the form",
+          "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+          "durationMillis": 2037000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 25,
+            "column": 7
+          },
+          "progress": {
+            "step": 4,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then It should give me a validation for the subject being empty",
+          "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+          "durationMillis": 2736000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 26,
+            "column": 7
+          },
+          "progress": {
+            "step": 5,
+            "steps": 5
+          }
+        }
+      ]
+    ],
+    "duration": 20016000000
+  },
+  {
+    "description": "Verify if user can attach a file by using the attach component on the form",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I'm at the conctact Form page",
+        "category": "Contact Form Functionality: Verify if user can attach a file by using the attach component on the form",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 29,
+          "column": 7
+        },
+        "progress": {
+          "step": 1,
+          "steps": 3
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I attach a file",
+        "category": "Contact Form Functionality: Verify if user can attach a file by using the attach component on the form",
+        "durationMillis": 9624000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 30,
+          "column": 7
+        },
+        "progress": {
+          "step": 2,
+          "steps": 3
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then The name on the component should be the file's name",
+        "category": "Contact Form Functionality: Verify if user can attach a file by using the attach component on the form",
+        "durationMillis": 2012000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 31,
+          "column": 7
+        },
+        "progress": {
+          "step": 3,
+          "steps": 3
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given I'm at the conctact Form page",
+          "category": "Contact Form Functionality: Verify if user can attach a file by using the attach component on the form",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 29,
+            "column": 7
+          },
+          "progress": {
+            "step": 1,
+            "steps": 3
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When I attach a file",
+          "category": "Contact Form Functionality: Verify if user can attach a file by using the attach component on the form",
+          "durationMillis": 9624000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 30,
+            "column": 7
+          },
+          "progress": {
+            "step": 2,
+            "steps": 3
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then The name on the component should be the file's name",
+          "category": "Contact Form Functionality: Verify if user can attach a file by using the attach component on the form",
+          "durationMillis": 2012000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 31,
+            "column": 7
+          },
+          "progress": {
+            "step": 3,
+            "steps": 3
+          }
+        }
+      ]
+    ],
+    "duration": 15134000000
+  },
+  {
+    "description": "Verify if user can submit a form with valid data",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": false,
+        "errorMsg": "HTTP method not allowed",
+        "stackTrace": "WebDriverError: HTTP method not allowed\n    at parseHttpResponse (C:\\Users\\Luis Delgado\\Desktop\\jobsity-automationpractice\\node_modules\\selenium-webdriver\\lib\\http.js:536:11)\n    at C:\\Users\\Luis Delgado\\Desktop\\jobsity-automationpractice\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: sendKeys\n    at Driver.schedule (C:\\Users\\Luis Delgado\\Desktop\\jobsity-automationpractice\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at C:\\Users\\Luis Delgado\\Desktop\\jobsity-automationpractice\\node_modules\\selenium-webdriver\\lib\\actions.js:124:23\n    at Array.map (<anonymous>)\n    at C:\\Users\\Luis Delgado\\Desktop\\jobsity-automationpractice\\node_modules\\selenium-webdriver\\lib\\actions.js:123:29\n    at TaskQueue.execute_ (C:\\Users\\Luis Delgado\\Desktop\\jobsity-automationpractice\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Luis Delgado\\Desktop\\jobsity-automationpractice\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\Luis Delgado\\Desktop\\jobsity-automationpractice\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n    at C:\\Users\\Luis Delgado\\Desktop\\jobsity-automationpractice\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: ActionSequence.perform\n    at ActionSequence.perform (C:\\Users\\Luis Delgado\\Desktop\\jobsity-automationpractice\\node_modules\\selenium-webdriver\\lib\\actions.js:122:33)\n    at AppPage.contactFormSelectSubject (C:\\Users\\Luis Delgado\\Desktop\\jobsity-automationpractice\\e2e\\src\\pages\\automationPractice.po.ts:55:99)\n    at C:\\Users\\Luis Delgado\\Desktop\\jobsity-automationpractice\\e2e\\src\\steps\\sendContactForm.steps.ts:145:16\n    at step (C:\\Users\\Luis Delgado\\Desktop\\jobsity-automationpractice\\node_modules\\tslib\\tslib.js:136:27)\n    at Object.next (C:\\Users\\Luis Delgado\\Desktop\\jobsity-automationpractice\\node_modules\\tslib\\tslib.js:117:57)\n    at C:\\Users\\Luis Delgado\\Desktop\\jobsity-automationpractice\\node_modules\\tslib\\tslib.js:110:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (C:\\Users\\Luis Delgado\\Desktop\\jobsity-automationpractice\\node_modules\\tslib\\tslib.js:106:16)\n    at World.<anonymous> (C:\\Users\\Luis Delgado\\Desktop\\jobsity-automationpractice\\e2e\\src\\steps\\sendContactForm.steps.ts:144:33)"
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I'm into the conctact Form page",
+        "category": "Contact Form Functionality: Verify if user can submit a form with valid data",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 34,
+          "column": 7
+        },
+        "progress": {
+          "step": 1,
+          "steps": 4
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I fill out all fields",
+        "category": "Contact Form Functionality: Verify if user can submit a form with valid data",
+        "durationMillis": 9612000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 35,
+          "column": 7
+        },
+        "progress": {
+          "step": 2,
+          "steps": 4
+        }
+      },
+      {
+        "emitterEvent": "testFail",
+        "name": "And I click on send",
+        "category": "Contact Form Functionality: Verify if user can submit a form with valid data",
+        "durationMillis": 263000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 36,
+          "column": 7
+        },
+        "progress": {
+          "step": 3,
+          "steps": 4
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then It should give me a a success validation",
+        "category": "Contact Form Functionality: Verify if user can submit a form with valid data",
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 37,
+          "column": 7
+        },
+        "progress": {
+          "step": 4,
+          "steps": 4
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given I'm into the conctact Form page",
+          "category": "Contact Form Functionality: Verify if user can submit a form with valid data",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 34,
+            "column": 7
+          },
+          "progress": {
+            "step": 1,
+            "steps": 4
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When I fill out all fields",
+          "category": "Contact Form Functionality: Verify if user can submit a form with valid data",
+          "durationMillis": 9612000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 35,
+            "column": 7
+          },
+          "progress": {
+            "step": 2,
+            "steps": 4
+          }
+        }
+      ],
+      [
+        "testFail",
+        {
+          "name": "And I click on send",
+          "category": "Contact Form Functionality: Verify if user can submit a form with valid data",
+          "durationMillis": 263000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 36,
+            "column": 7
+          },
+          "progress": {
+            "step": 3,
+            "steps": 4
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then It should give me a a success validation",
+          "category": "Contact Form Functionality: Verify if user can submit a form with valid data",
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 37,
+            "column": 7
+          },
+          "progress": {
+            "step": 4,
+            "steps": 4
+          }
+        }
+      ]
+    ],
+    "duration": null
+  },
+  {
+    "description": "Verify if user is not able to send the form with all fields on blank",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I go to the Contact Form page",
+        "category": "Contact Form Functionality: Verify if user is not able to send the form with all fields on blank",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 5,
+          "column": 7
+        },
+        "progress": {
+          "step": 1,
+          "steps": 3
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click on Send",
+        "category": "Contact Form Functionality: Verify if user is not able to send the form with all fields on blank",
+        "durationMillis": 13998000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 6,
+          "column": 7
+        },
+        "progress": {
+          "step": 2,
+          "steps": 3
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then It trigger an alert for the fields being blank",
+        "category": "Contact Form Functionality: Verify if user is not able to send the form with all fields on blank",
+        "durationMillis": 2194000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 7,
+          "column": 7
+        },
+        "progress": {
+          "step": 3,
+          "steps": 3
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given I go to the Contact Form page",
+          "category": "Contact Form Functionality: Verify if user is not able to send the form with all fields on blank",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 5,
+            "column": 7
+          },
+          "progress": {
+            "step": 1,
+            "steps": 3
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When I click on Send",
+          "category": "Contact Form Functionality: Verify if user is not able to send the form with all fields on blank",
+          "durationMillis": 13998000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 6,
+            "column": 7
+          },
+          "progress": {
+            "step": 2,
+            "steps": 3
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then It trigger an alert for the fields being blank",
+          "category": "Contact Form Functionality: Verify if user is not able to send the form with all fields on blank",
+          "durationMillis": 2194000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 7,
+            "column": 7
+          },
+          "progress": {
+            "step": 3,
+            "steps": 3
+          }
+        }
+      ]
+    ],
+    "duration": 21222000000
+  },
+  {
+    "description": "Verify if user cannot send the form with an unvalid email",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I'm on the conctact Form page",
+        "category": "Contact Form Functionality: Verify if user cannot send the form with an unvalid email",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 10,
+          "column": 7
+        },
+        "progress": {
+          "step": 1,
+          "steps": 4
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I type an unvalid Email address",
+        "category": "Contact Form Functionality: Verify if user cannot send the form with an unvalid email",
+        "durationMillis": 13518000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 11,
+          "column": 7
+        },
+        "progress": {
+          "step": 2,
+          "steps": 4
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I send the contact form",
+        "category": "Contact Form Functionality: Verify if user cannot send the form with an unvalid email",
+        "durationMillis": 2061000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 12,
+          "column": 7
+        },
+        "progress": {
+          "step": 3,
+          "steps": 4
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then It should give me a validation for the invalid email",
+        "category": "Contact Form Functionality: Verify if user cannot send the form with an unvalid email",
+        "durationMillis": 2765000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 13,
+          "column": 7
+        },
+        "progress": {
+          "step": 4,
+          "steps": 4
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given I'm on the conctact Form page",
+          "category": "Contact Form Functionality: Verify if user cannot send the form with an unvalid email",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 10,
+            "column": 7
+          },
+          "progress": {
+            "step": 1,
+            "steps": 4
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When I type an unvalid Email address",
+          "category": "Contact Form Functionality: Verify if user cannot send the form with an unvalid email",
+          "durationMillis": 13518000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 11,
+            "column": 7
+          },
+          "progress": {
+            "step": 2,
+            "steps": 4
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "And I send the contact form",
+          "category": "Contact Form Functionality: Verify if user cannot send the form with an unvalid email",
+          "durationMillis": 2061000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 12,
+            "column": 7
+          },
+          "progress": {
+            "step": 3,
+            "steps": 4
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then It should give me a validation for the invalid email",
+          "category": "Contact Form Functionality: Verify if user cannot send the form with an unvalid email",
+          "durationMillis": 2765000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 13,
+            "column": 7
+          },
+          "progress": {
+            "step": 4,
+            "steps": 4
+          }
+        }
+      ]
+    ],
+    "duration": 23357000000
+  },
+  {
+    "description": "Verify if user cannot send the form w/o placing a message",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given From the conctact Form page",
+        "category": "Contact Form Functionality: Verify if user cannot send the form w/o placing a message",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 16,
+          "column": 7
+        },
+        "progress": {
+          "step": 1,
+          "steps": 4
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I type a valid Email address",
+        "category": "Contact Form Functionality: Verify if user cannot send the form w/o placing a message",
+        "durationMillis": 13604000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 17,
+          "column": 7
+        },
+        "progress": {
+          "step": 2,
+          "steps": 4
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I send the form again",
+        "category": "Contact Form Functionality: Verify if user cannot send the form w/o placing a message",
+        "durationMillis": 2072000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 18,
+          "column": 7
+        },
+        "progress": {
+          "step": 3,
+          "steps": 4
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then It should give me a validation for the Message being empty",
+        "category": "Contact Form Functionality: Verify if user cannot send the form w/o placing a message",
+        "durationMillis": 2699000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 19,
+          "column": 7
+        },
+        "progress": {
+          "step": 4,
+          "steps": 4
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given From the conctact Form page",
+          "category": "Contact Form Functionality: Verify if user cannot send the form w/o placing a message",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 16,
+            "column": 7
+          },
+          "progress": {
+            "step": 1,
+            "steps": 4
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When I type a valid Email address",
+          "category": "Contact Form Functionality: Verify if user cannot send the form w/o placing a message",
+          "durationMillis": 13604000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 17,
+            "column": 7
+          },
+          "progress": {
+            "step": 2,
+            "steps": 4
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "And I send the form again",
+          "category": "Contact Form Functionality: Verify if user cannot send the form w/o placing a message",
+          "durationMillis": 2072000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 18,
+            "column": 7
+          },
+          "progress": {
+            "step": 3,
+            "steps": 4
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then It should give me a validation for the Message being empty",
+          "category": "Contact Form Functionality: Verify if user cannot send the form w/o placing a message",
+          "durationMillis": 2699000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 19,
+            "column": 7
+          },
+          "progress": {
+            "step": 4,
+            "steps": 4
+          }
+        }
+      ]
+    ],
+    "duration": 23401000000
+  },
+  {
+    "description": "Verify if user cannot send the form w/o putting any subject",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given On the conctact Form page",
+        "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 22,
+          "column": 7
+        },
+        "progress": {
+          "step": 1,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I type a valid Email",
+        "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+        "durationMillis": 13719000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 23,
+          "column": 7
+        },
+        "progress": {
+          "step": 2,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I type a valid Message",
+        "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+        "durationMillis": 2079000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 24,
+          "column": 7
+        },
+        "progress": {
+          "step": 3,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I send the form",
+        "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+        "durationMillis": 2133000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 25,
+          "column": 7
+        },
+        "progress": {
+          "step": 4,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then It should give me a validation for the subject being empty",
+        "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+        "durationMillis": 2606000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 26,
+          "column": 7
+        },
+        "progress": {
+          "step": 5,
+          "steps": 5
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given On the conctact Form page",
+          "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 22,
+            "column": 7
+          },
+          "progress": {
+            "step": 1,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When I type a valid Email",
+          "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+          "durationMillis": 13719000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 23,
+            "column": 7
+          },
+          "progress": {
+            "step": 2,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "And I type a valid Message",
+          "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+          "durationMillis": 2079000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 24,
+            "column": 7
+          },
+          "progress": {
+            "step": 3,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "And I send the form",
+          "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+          "durationMillis": 2133000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 25,
+            "column": 7
+          },
+          "progress": {
+            "step": 4,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then It should give me a validation for the subject being empty",
+          "category": "Contact Form Functionality: Verify if user cannot send the form w/o putting any subject",
+          "durationMillis": 2606000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 26,
+            "column": 7
+          },
+          "progress": {
+            "step": 5,
+            "steps": 5
+          }
+        }
+      ]
+    ],
+    "duration": 25565000000
+  },
+  {
+    "description": "Verify if user can attach a file by using the attach component on the form",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I'm at the conctact Form page",
+        "category": "Contact Form Functionality: Verify if user can attach a file by using the attach component on the form",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 29,
+          "column": 7
+        },
+        "progress": {
+          "step": 1,
+          "steps": 3
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I attach a file",
+        "category": "Contact Form Functionality: Verify if user can attach a file by using the attach component on the form",
+        "durationMillis": 13503000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 30,
+          "column": 7
+        },
+        "progress": {
+          "step": 2,
+          "steps": 3
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then The name on the component should be the file's name",
+        "category": "Contact Form Functionality: Verify if user can attach a file by using the attach component on the form",
+        "durationMillis": 2053000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 31,
+          "column": 7
+        },
+        "progress": {
+          "step": 3,
+          "steps": 3
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given I'm at the conctact Form page",
+          "category": "Contact Form Functionality: Verify if user can attach a file by using the attach component on the form",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 29,
+            "column": 7
+          },
+          "progress": {
+            "step": 1,
+            "steps": 3
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When I attach a file",
+          "category": "Contact Form Functionality: Verify if user can attach a file by using the attach component on the form",
+          "durationMillis": 13503000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 30,
+            "column": 7
+          },
+          "progress": {
+            "step": 2,
+            "steps": 3
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then The name on the component should be the file's name",
+          "category": "Contact Form Functionality: Verify if user can attach a file by using the attach component on the form",
+          "durationMillis": 2053000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 31,
+            "column": 7
+          },
+          "progress": {
+            "step": 3,
+            "steps": 3
+          }
+        }
+      ]
+    ],
+    "duration": 20594000000
+  },
+  {
+    "description": "Verify if user can submit a form with valid data",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I'm into the conctact Form page",
+        "category": "Contact Form Functionality: Verify if user can submit a form with valid data",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 34,
+          "column": 7
+        },
+        "progress": {
+          "step": 1,
+          "steps": 4
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I fill out all fields",
+        "category": "Contact Form Functionality: Verify if user can submit a form with valid data",
+        "durationMillis": 13526000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 35,
+          "column": 7
+        },
+        "progress": {
+          "step": 2,
+          "steps": 4
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I click on send",
+        "category": "Contact Form Functionality: Verify if user can submit a form with valid data",
+        "durationMillis": 10335000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 36,
+          "column": 7
+        },
+        "progress": {
+          "step": 3,
+          "steps": 4
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then It should give me a a success validation",
+        "category": "Contact Form Functionality: Verify if user can submit a form with valid data",
+        "durationMillis": 2591000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendContactForm.feature",
+          "line": 37,
+          "column": 7
+        },
+        "progress": {
+          "step": 4,
+          "steps": 4
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given I'm into the conctact Form page",
+          "category": "Contact Form Functionality: Verify if user can submit a form with valid data",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 34,
+            "column": 7
+          },
+          "progress": {
+            "step": 1,
+            "steps": 4
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When I fill out all fields",
+          "category": "Contact Form Functionality: Verify if user can submit a form with valid data",
+          "durationMillis": 13526000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 35,
+            "column": 7
+          },
+          "progress": {
+            "step": 2,
+            "steps": 4
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "And I click on send",
+          "category": "Contact Form Functionality: Verify if user can submit a form with valid data",
+          "durationMillis": 10335000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 36,
+            "column": 7
+          },
+          "progress": {
+            "step": 3,
+            "steps": 4
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then It should give me a a success validation",
+          "category": "Contact Form Functionality: Verify if user can submit a form with valid data",
+          "durationMillis": 2591000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendContactForm.feature",
+            "line": 37,
+            "column": 7
+          },
+          "progress": {
+            "step": 4,
+            "steps": 4
+          }
+        }
+      ]
+    ],
+    "duration": 31494000000
+  }
+]
