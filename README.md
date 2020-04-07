@@ -7,7 +7,7 @@ This is a mix of Protractor framework with the combination of Typescript and Cuc
 2. Download `node.js` with `npm `
 3. Use `npm init` and `npm install`
 4. Use `webdriver-update`
-5. Use `node node_modules\protractor\bin\webdriver-manager update`
+5. Use `node node_modules/protractor/bin/webdriver-manager update`
 6. Use `npm install -g protractor` to install the Protractor framework globally
 7. Use `npm install --save-dev @types/{chai,cucumber} chai cucumber protractor-cucumber-framework ` to install the dependendices needed for chai and the cucumber framework
     If this does not work on your machine, use `npm i @types/chai @types/cucumber`
