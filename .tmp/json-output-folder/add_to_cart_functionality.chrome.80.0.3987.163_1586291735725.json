@@ -1,0 +1,214 @@
+[
+  {
+    "description": "   The porpose of this is to check if the user can add an item to the Cart",
+    "keyword": "Feature",
+    "name": "Add to Cart Functionality",
+    "line": 1,
+    "id": "add-to-cart-functionality",
+    "tags": [],
+    "uri": "e2e\\src\\features\\addItemToCart.feature",
+    "elements": [
+      {
+        "id": "add-to-cart-functionality;verify-if-user-is-able-to-add-items-to-the-cart-on-the-homepage",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify if user is able to add items to the cart on the homepage",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\src\\steps\\addItemToCart.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\src\\steps\\sendContactForm.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I'm at the homepage",
+            "match": {
+              "location": "e2e\\src\\steps\\addItemToCart.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15280000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I hover on one item",
+            "match": {
+              "location": "e2e\\src\\steps\\addItemToCart.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2034000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on add to cart",
+            "match": {
+              "location": "e2e\\src\\steps\\addItemToCart.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2049000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The pop up validation should show up",
+            "match": {
+              "location": "e2e\\src\\steps\\addItemToCart.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5011000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-to-cart-functionality;verify-if-user-can-add-an-item-to-the-cart-on-the-quick-view",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify if user can add an item to the cart on the Quick view",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\src\\steps\\addItemToCart.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\src\\steps\\sendContactForm.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I'm on the homepage",
+            "match": {
+              "location": "e2e\\src\\steps\\addItemToCart.steps.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click on any item",
+            "match": {
+              "location": "e2e\\src\\steps\\addItemToCart.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I add it to the cart",
+            "match": {
+              "location": "e2e\\src\\steps\\addItemToCart.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2044000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "The success validation should show up",
+            "match": {
+              "location": "e2e\\src\\steps\\addItemToCart.steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5021000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "80.0.3987.163"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
