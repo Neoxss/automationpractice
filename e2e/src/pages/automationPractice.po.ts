@@ -1,11 +1,11 @@
 import { browser, by, element, ExpectedConditions as EC, protractor } from 'protractor';
-var path = require('path');
+const path = require('path');
 //Please update this to the path on your local.
-var fileToUpload = '../../../../jobsity-automationpractice/angular-protractor.png';
+const fileToUpload = '../../../../jobsity-automationpractice/angular-protractor.png';
 
-let env = require('../env.js');
+const env = require('../env.js');
 
-var { setDefaultTimeout } = require('cucumber');
+const { setDefaultTimeout } = require('cucumber');
 setDefaultTimeout(env.setDefaultTimeout);
 
 export class AppPage {
@@ -23,12 +23,12 @@ export class AppPage {
   }
 
   sendContacForm() {
-    var sendForm = element(by.id('submitMessage'))
+    var sendForm = element(by.id('submitMessage'));
     return sendForm.click();
   }
 
   dangerAlert() {
-    return element(by.xpath('/html/body/div/div[2]/div/div[3]/div/div/ol/li')).getAttribute("textContent") as Promise<string>;
+    return element(by.xpath('/html/body/div/div[2]/div/div[3]/div/div/ol')).getAttribute("textContent") as Promise<string>;
   }
 
   contactFormEmail() {

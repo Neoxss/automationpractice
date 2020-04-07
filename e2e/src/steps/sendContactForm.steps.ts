@@ -28,7 +28,7 @@ When(/^I click on Send$/, async () => {
 });
 // This is a workaround since there's no actual error for fields that are empty.
 Then(/^It trigger an alert for the fields being blank$/, async () => {
-    expect((await page.dangerAlert())).to.equal('Invalid email address.');
+    expect((await page.dangerAlert()).trim()).to.equal('Invalid email address.');
 });
 
 Given(/^I'm on the conctact Form page$/, async () => {
@@ -53,7 +53,7 @@ When(/^I send the contact form$/, async () => {
 });
 
 Then(/^It should give me a validation for the invalid email$/, async () => {
-    expect((await page.dangerAlert())).to.equal('Invalid email address.');
+    expect((await page.dangerAlert()).trim()).to.equal('Invalid email address.');
 });
 
 Given(/^From the conctact Form page$/, async () => {
@@ -78,7 +78,7 @@ When(/^I send the form again$/, async () => {
 });
 
 Then(/^It should give me a validation for the Message being empty$/, async () => {
-    expect((await page.dangerAlert())).to.equal('The message cannot be blank.');
+    expect((await page.dangerAlert()).trim()).to.equal('The message cannot be blank.');
 });
 
 Given(/^On the conctact Form page$/, async () => {
@@ -109,7 +109,7 @@ When(/^I send the form$/, async () => {
 });
 
 Then(/^It should give me a validation for the subject being empty$/, async () => {
-    expect((await page.dangerAlert())).to.equal('Please select a subject from the list provided. ');
+    expect((await page.dangerAlert()).trim()).to.equal('Please select a subject from the list provided.');
 });
 
 Given(/^I'm at the conctact Form page$/, async () => {

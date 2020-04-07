@@ -1,6 +1,6 @@
 module.exports  = {
-    chromeDriverVersion: '../node_modules/protractor/node_modules/webdriver-manager/selenium/chromedriver_80.0.3987.106.exe',
-    firefoxDriverVersion: '../node_modules/protractor/node_modules/webdriver-manager/selenium/geckodriver-v0.26.0-win64.exe',
+    chromeDriverVersion: '../../../AppData/Roaming/npm/node_modules/protractor/node_modules/webdriver-manager/selenium/chromedriver_80.0.3987.106.exe',
+    firefoxDriverVersion: '../../../../../npm/node_modules/protractor/node_modules/webdriver-manager/selenium/geckodriver-v0.26.0.exe',
     userName:'test1',
     userPassword:'newuser123',
     userEmail:'test@gmail.com',

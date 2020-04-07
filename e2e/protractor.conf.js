@@ -11,7 +11,7 @@ var env = require('./src/env');
 
 exports.config = {
 
-  specs: ['./src/features/sendContactForm.feature'],
+  specs: ['./src/features/*.feature'],
   chromeDriver: (env.chromeDriverVersion),
   firefoxDriver: (env.firefoxDriverVersion),
   multiCapabilities: [{
@@ -26,7 +26,8 @@ exports.config = {
     maxInstances: 2,
     shardTestFiles: true,
     sequential: true
-  }],
+  }
+],
   resultJsonOutputFile: 'report.json',
   directConnect: true,
   restartBrowserBetweenTests: true,
