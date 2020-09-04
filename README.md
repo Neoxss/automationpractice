@@ -1,6 +1,3 @@
-# Jobsitychallenge - Automation Practice
-This is a challenge for the QA Automation position at Jobsity.
-
 ## Instructions to set everything up
 This is a mix of Protractor framework with the combination of Typescript and Cucumber. All using selenium test runner.
 1. As We're going to use local standalone Selenium Server to control browsers, `Java` needs to be installed
@@ -22,6 +19,6 @@ If for some reason you get an error that a module was not found, please delete t
 Also there might be an issue if you have a a different chrome version that the current latest. For some reason Protractor only uses the latest and not the one that the user has avilable on their machines, therefore, please locate your driver in case is different at `dsk\Users\userName\AppData\Roaming\npm\node_modules\protractor\node_modules\webdriver-manager\selenium\yourChromeDriver` and change it on the `env.js` file.
 
 
-And also `C:\Users\Luis Delgado\AppData\Roaming\npm\node_modules\protractor\node_modules\webdriver-manager\selenium\update-config.json` needs to be updated with your driver. 
+And also `C:\Users\User\AppData\Roaming\npm\node_modules\protractor\node_modules\webdriver-manager\selenium\update-config.json` needs to be updated with your driver. 
 
 All of the spleeps added are for the sake of checking the result by the one who's gonna check the code. They can be removed if needed.
